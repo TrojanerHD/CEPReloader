@@ -5,7 +5,7 @@ These instructions tell you how you can install the plugin to Adobe Premiere
 ### Prerequisites
 1. Enable loading of unsigned extensions as described [here](https://github.com/Adobe-CEP/Samples/tree/master/PProPanel#2-enable-loading-of-unsigned-panels) (for a detailed tutorial click [here](https://youtu.be/-QOrJgykr-4))
 2. Of course, you have to add another extension to test the plugin (click [here](https://premiereonscript.com/log-03/) for a tutorial) if you haven't already
-3. You have to download npm from its site (follow the instructions [here](https://www.npmjs.com/get-npm)) If you don't already have the programm
+3. You have to download npm from its site (follow the instructions [here](https://www.npmjs.com/get-npm)) if you don't already have the program
 ### Installing
 1. [Download the zip](https://github.com/derkalaender/CEPReloader/archive/master.zip) of the repository, unzip it and paste it into your extension folder whose location you can find out [here](https://github.com/Adobe-CEP/CEP-Resources/blob/master/CEP_8.x/Documentation/CEP%208.0%20HTML%20Extension%20Cookbook.md#extension-folders)
 2. (Optional) rename the project folder to ``CEPReloader`` (that looks better but technically changes nothing)
@@ -42,7 +42,7 @@ These instructions tell you how you can install the plugin to Adobe Premiere
     ```
 6. (Re)start Premiere and head to ``Windows -> Extensions -> CEPReloader``
 ### Summary
-If you took the example from [Prerequisites](readme.md#prerequisites), your ``MyProject/index.html``-file should look as follows:
+If you took the example from [Prerequisites](#prerequisites), your ``MyProject/index.html``-file should look as follows:
 ```html
 <!DOCTYPE html>
 <!-- This document forms the dockable panel. The button is the <input> tag below. The <style> formats the button. 
